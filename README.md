@@ -14,7 +14,8 @@ Marketplace Visual Studio Code 확장의 VSIX 파일을 쉽게 다운로드할 �
 
 ## 사용 방법
 
-- Marketplace extension 상세 페이지에 접속하면 우측 상단에 배너가 표시됩니다.
+- [vscode market](https://marketplace.visualstudio.com/) 플러그인 설치 사이트로 이동
+- Marketplace extension 상세 페이지에 접속하면 우측 상단에 배너가 표시됩니다. [예시](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 - 배너에서 원하는 버전을 선택 후 **VSIX 다운로드** 버튼을 누르면 파일이 `${extensionName}-${version}.vsix` 형태로 다운로드 됩니다.
 - 배너 닫기 버튼(✕)을 눌러 숨길 수 있습니다.
 - 확장 아이콘을 클릭해도 동일하게 배너가 표시됩니다.

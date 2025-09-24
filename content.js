@@ -105,6 +105,7 @@
     const downloadBtn = document.createElement("button");
     downloadBtn.textContent = "Download";
     downloadBtn.style.marginBottom = "6px";
+    downloadBtn.style.lineHeight = "1.0";
     downloadBtn.style.padding = "6px 10px";
     downloadBtn.style.border = "none";
     downloadBtn.style.borderRadius = "4px";
@@ -141,7 +142,7 @@
     // 닫기 버튼
     const closeBtn = document.createElement("button");
     closeBtn.textContent = "✕";
-    // closeBtn.style.alignSelf = "flex-end";
+    closeBtn.style.lineHeight = "1.0";
     closeBtn.style.padding = "2px 6px";
     closeBtn.style.border = "none";
     closeBtn.style.borderRadius = "4px";
