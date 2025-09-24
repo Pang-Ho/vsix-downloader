@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "VSIX Downloader",
+  "version": "1.0",
+  "description": "Marketplace VSIX download banner. Download VSIX files from the Visual Studio Marketplace. ex) https://marketplace.visualstudio.com/items?itemName=ms-python.python",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://marketplace.visualstudio.com/*"],
+  "action": {
+    "default_title": "VSIX downloader",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://marketplace.visualstudio.com/items*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
