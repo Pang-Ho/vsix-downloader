@@ -6,7 +6,7 @@ Marketplace Visual Studio Code 확장의 VSIX 파일을 쉽게 다운로드할 �
 
 ## 설치 방법
 
-1. 깃허브에서 소스 코드 ZIP 다운로드
+1. 깃허브에서 소스 코드 ZIP [다운로드](https://github.com/Pang-Ho/vsix-downloader/releases/download/1.0.0/vsix-downloader.zip)
 2. 압축 해제
 3. Chrome 브라우저에서 `chrome://extensions/` 접속
 4. **개발자 모드** 활성화
